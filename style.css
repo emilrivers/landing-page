@@ -3,21 +3,31 @@ html * {
 }
 
 .top {
-    background-color: #1f2937
+    background-color: #1f2937;
+    
 }
 
 .header {
-    color: slategrey;
+    color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    font-size: 24px;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.links {
+    display: flex;
+    gap: 25px;
 }
 
 a { 
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
-    display: flex;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .hero-main-text {
@@ -27,10 +37,18 @@ a {
     
 }
 
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
 .placeholder {
   height: 150px;
   width: 300px;
   background-color: #555;
+  display: flex;
+ 
 }
 
 .placeholder-text {
