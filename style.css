@@ -4,7 +4,9 @@ html * {
 
 .top {
     background-color: #1f2937;
-    
+    padding-left: 150px;
+    padding-right: 125px;
+    padding-bottom: 125px;
 }
 
 .header {
@@ -13,6 +15,7 @@ html * {
     font-size: 24px;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 75px;
 }
 
 .links {
@@ -30,31 +33,26 @@ ul {
     list-style-type: none;
 }
 
-.hero-main-text {
+.content {
+    display: flex;
+}
+
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
+    color:#F9FAF8
     
 }
 
-.hero-subtext {
+p{
     font-size: 18px;
     color: #E5E7EB;
-
 }
 
-.placeholder {
-  height: 150px;
-  width: 300px;
-  background-color: #555;
-  display: flex;
- 
+img {
+    height: 150px;
 }
 
-.placeholder-text {
-    display: flex;
-    justify-content: center;
-    padding-top: 75px;
-    text-align: center;
-}
 
