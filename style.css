@@ -16,7 +16,11 @@ html * {
     align-items: center;
     justify-content: space-between;
     padding-bottom: 75px;
- 
+    font-weight: bold;
+}
+
+.header ul {
+    font-weight: 300;
 }
 
 .links {
@@ -73,4 +77,6 @@ img {
   color: white;
 
 }
+
+
 
