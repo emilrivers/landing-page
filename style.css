@@ -81,7 +81,8 @@ img {
 
 .two {
     background-color: white;
-
+    display: flex;
+    
 }
 
 .two-header {
@@ -89,10 +90,28 @@ img {
     justify-content: center;
     font-weight: bold;
     font-size: 36px;
-    padding-top: 25px;
+    padding: 25px;
     border: 1px red solid; 
 }
 
-.rounded-boxes
+.boxes-content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    }
 
+.boxes {
+    height: 150px;
+    width: 150px;
+    border:2px blue solid;
+    border-radius: 15px;
+    
+}
+
+.caption { 
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
 
