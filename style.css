@@ -43,6 +43,7 @@ ul {
 
 .content {
     display: flex;
+    justify-content: space-between;
 }
 
 
@@ -54,13 +55,14 @@ h1 {
     margin-bottom: -20px;
 }
 
-p{
+.left p{
     font-size: 18px;
     color: #E5E7EB;
+    /* width:50% */
     
 }
 
-img {
+.image img {
     height: 150px;
     margin-left: 50px;
 }
@@ -82,16 +84,22 @@ img {
 .two {
     background-color: white;
     display: flex;
-    
+    justify-content: center;
+    /* margin:50px; */
+    padding-left: 100px;
+    padding-right:100px;
+    border: 1px solid;
+   
 }
 
 .two-header {
     display: flex;
     justify-content: center;
+    flex-shrink:0;
     font-weight: bold;
     font-size: 36px;
     padding: 25px;
-    border: 1px red solid; 
+    /* border: 1px red solid;  */
 }
 
 .boxes-content{
@@ -99,19 +107,38 @@ img {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    /* padding: 25px; */
+    /* flex-grow:0; */
     }
 
 .boxes {
     height: 150px;
     width: 150px;
-    border:2px blue solid;
+    /* border:2px #3882F6 solid;
+    border-radius: 15px; */
+   
+}
+
+.boxes img {
+    height: 100%;
+    width: 100%;
+    border:3px #3882F6 solid;
     border-radius: 15px;
-    
+  
 }
 
 .caption { 
     text-align: center;
     margin-top: 10px;
     color: black;
+    font-size: 18px;
+    width:80%
 }
 
+.three {
+    display: flex;
+    /* flex-direction: column; */
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
